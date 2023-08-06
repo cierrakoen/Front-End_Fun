@@ -1,0 +1,18 @@
+.section{
+    position: relative;
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #AFD0BF;
+}
+
+body{
+    display: flex;
+    background-color: #E2EFDE;
+}
+
+p{
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
