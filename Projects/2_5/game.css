@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    background-color: #E4FDE1;
+    margin: 10px auto;
+    position: relative;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-evenly;
+    color: blue;
+}
+
+ul li {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    font-family: sans-serif;
+    font-size: 32pt;
+    text-align: center;
+    cursor: pointer;
+}
+
+ul li.movablePiece {
+    border-color: red;
+    color: #006600;
+    text-decoration: underline;
+}
+
+.Btn{
+    display: block;
+    margin: 10px auto;
+}
+
+.blur-it {
+    filter: blur(4px);
+  }
+  .modal-wrapper {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(19, 19, 19, 0.51);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+    &.open {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  
+  .modal {
+    width: 400px;
+    height: 300px;
+    margin: 50% 0 0 -200px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .modal-wrapper.open .modal {
+    display: block;
+    margin-top: -200px;
+    opacity: 1;
+  }
+  
+  .head {
+    width: 100%;
+    height: 55px;
+    padding: 12px 30px;
+    overflow: hidden;
+    background: #42bc83;
+  }
+  
+  .btn-close {
+    font-size: 28px;
+    display: block;
+    float: right;
+    color: #fff;
+  }
+  
+  .content {
+    padding: 10%;
+  }
+  
+  .good-job {
+    text-align: center;
+    font-family: 'Montserrat', Arial,       Helvetica, sans-serif;
+    color: #42bc83;
+    .fa-thumbs-o-up {
+      font-size: 60px;
+    }
+    h1 {
+      font-size: 45px;
+    }
+  }

@@ -1,0 +1,167 @@
+body{
+    background-image: url(./static/background.png);
+}
+
+p{
+    font-size: 8pt;
+    font-family: Tahoma, Verdana, sans-serif;
+    
+}
+
+#backbanner{
+    position: relative;
+    background-image: url(./static/bannerbackground.png);
+    z-index: 2;
+    height:50px;
+}
+
+.ban-logo{
+    background-image: url("./static/banner.png");
+    align-content: center;
+    height: 50px;
+    z-index: 2;
+}
+
+#centered{
+    text-align: center;
+    font-size: 28pt;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    border-radius: 4px;
+    border-color: grey;
+    border-style: ridge;
+    width: 800px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftside{
+    flex-basis: 68.75%;
+    float:right;
+    position: relative;
+}
+
+.microleft{
+    display:grid;
+    grid-gap: 20%;
+    grid-template-columns: auto auto auto;
+    flex-basis: 47%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.col1{
+    grid-column: 1;
+}
+
+.col2{
+    grid-column: 2;
+}
+
+#rightside{
+    flex-basis: 31.25%;
+    position: static;
+    background-color: #a2b964;
+}
+
+.rightside img{
+    position: relative;
+}
+
+#gen-overview{
+    background-color: #a2b964;
+    font-size: 8pt;
+}
+
+.inside-rot{
+    position: relative;
+    background-image: url(./static/rottenbackground.png);
+    height: 83px;
+}
+
+#rate{
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    vertical-align: middle;
+    position: relative;
+    display: inline;
+}
+
+#total-reviews{
+    vertical-align: bottom;
+    position: relative;
+    display: inline;
+    color: white;
+    font-size: 8pt;
+}
+
+#top{
+    overflow:hidden;
+}
+
+.inside-rot img{
+    float: left;
+}
+
+.review-box{
+    display: inline-block;
+}
+
+.review-box img{
+    display: flex;
+    margin-right: 5px;
+    clear:right;
+}
+
+.quote{
+    font-weight: bold;
+    color: black;
+    border: 2px;
+    border-color:grey;
+    background-color: #E1D697;
+    padding: 8px;
+    border-style: ridge;
+}
+
+.rev-personal{
+    font-style: italic;
+    position: static;
+    margin-bottom: 3em;
+    display:inline-flex;
+}
+
+.rev-personal img{
+    clear: right;
+}
+
+dl,dt,dd{
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.review-bar {
+    flex-wrap: wrap;
+    position: absolute;
+    width: 800px;
+    justify-content: center;
+    background-color: #a2b964;
+    bottom:0;
+}
+  
+.review-bar p {
+    position:static;
+    justify-content: baseline;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
