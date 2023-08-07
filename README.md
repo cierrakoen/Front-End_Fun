@@ -16,7 +16,7 @@ Feel free to explore the projects and delve into the code to understand the prin
 
 
 ## TMNT Movie
-Link: [TMNT Movie](./2/tmnt.html)
+Link: [TMNT Movie](/2/tmnt.html)
 
 Description: The TMNT Movie project simulated a mock review page similar to Rotten Tomatoes, focusing on understanding display properties like float and position in web development. By creating a webpage for the Teenage Mutant Ninja Turtles movie, I learned how to manipulate element placement and alignment effectively.
 
@@ -26,7 +26,7 @@ Description: The TMNT Movie project simulated a mock review page similar to Rott
 
 
 ## NerdLuv
-Link: [NerdLuv](./3/index.php)
+Link: [NerdLuv](/3/index.php)
 
 Description: NerdLuv was a dating site project that involved user sign-up and matchmaking based on opposite gender, age range, and other criteria. PHP post forms were used to create accounts, and data was pulled from a text file "singles.txt" to find potential matches. This project provided insights into user authentication, form handling, and data manipulation.
 
